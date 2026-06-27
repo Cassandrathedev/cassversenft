@@ -14,7 +14,7 @@ This project demonstrates the complete NFT development workflow, including smart
 - NFT minting functionality
 - Successfully deployed and minted to MetaMask
 
-## Technologies Used
+## Tech Stacks
 
 - Solidity
 - Foundry
