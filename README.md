@@ -1,66 +1,32 @@
-## Foundry
+# CassVerse NFT
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Is an ERC-721 NFT built with Solidity, Foundry, and OpenZeppelin.
+This project demonstrates the complete NFT development workflow, including smart contract development, testing, deployment, and minting to MetaMask.
 
-Foundry consists of:
+## Features
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- ERC-721 NFT smart contract
+- Built with Solidity
+- Developed using Foundry
+- Utilizes OpenZeppelin contracts
+- Smart contract testing
+- Deployment scripts
+- NFT minting functionality
+- Successfully deployed and minted to MetaMask
 
-## Documentation
+## Technologies Used
 
-https://book.getfoundry.sh/
+- Solidity
+- Foundry
+- OpenZeppelin
+- Git & GitHub
+- MetaMask
+- Ethereum-compatible blockchain
 
-## Usage
+## Project Structure
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+```text
+src/        # Smart contracts
+script/     # Deployment scripts
+test/       # Test files
 ```
